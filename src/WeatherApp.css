@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Horizontal center */
+  justify-content: center; /* Vertical center */
+  height: 100vh;  /* Full screen height */
+  text-align: center;
+}
