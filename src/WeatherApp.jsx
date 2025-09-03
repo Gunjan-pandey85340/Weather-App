@@ -25,8 +25,8 @@ export default function WeatherApp () {
         <div style={{ textAlign:"center" , color:"black" }}>
             
             <h2>
-                <FontAwesomeIcon icon={faCloudSun} size="2x" style={{ marginRight: "10px", color: "orange"}}/>
-                Weather App</h2>
+                <FontAwesomeIcon icon={faCloudSun} size="1x" style={{ marginRight: "10px", color: "orange"}}/>
+                Weather App!</h2>
             <SearchBox updateInfo={ updateInfo }/>
             <InfoBox info={weatherInfo}/>
         </div>
