@@ -2,6 +2,9 @@ import SearchBox from "./SearchBox";
 import InfoBox from "./InfoBox";
 import { useState } from "react";
 import "./WeatherApp.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCloudSun } from "@fortawesome/free-solid-svg-icons"; 
+
 
 export default function WeatherApp () {
     const [weatherInfo , setWeatherInfo] = useState({
@@ -19,8 +22,11 @@ export default function WeatherApp () {
     }
 
     return (
-        <div style={{ textAlign:"center" }}>
-            <h2>Weather App by Gunjan</h2>
+        <div style={{ textAlign:"center" , color:"black" }}>
+            
+            <h2>
+                <FontAwesomeIcon icon={faCloudSun} size="2x" style={{ marginRight: "10px", color: "orange"}}/>
+                Weather App</h2>
             <SearchBox updateInfo={ updateInfo }/>
             <InfoBox info={weatherInfo}/>
         </div>
