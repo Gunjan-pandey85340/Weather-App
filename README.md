@@ -34,6 +34,7 @@ It fetches **real-time weather data** from the **OpenWeather API** and uses **Un
 ## 📷Deployment Link
 https://weather-app-ebon-six.vercel.app/
 
+
 ---
 
 ## 🔑 APIs Used
