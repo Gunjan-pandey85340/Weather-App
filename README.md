@@ -31,9 +31,8 @@ It fetches **real-time weather data** from the **OpenWeather API** and uses **Un
 
 ---
 
-## 📷 Screenshot
- 
-![Weather App Screenshot](https://your-screenshot-link.com)
+## 📷Deployment Link
+https://weather-app-ebon-six.vercel.app/
 
 ---
 
